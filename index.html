@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name ="author" content="Pablo Mondino De La Rossa">
+    <meta name="description" content="pagina curriculum vitae de Pablo Mondino De La Rossa">
+    <meta name="keywords" content="curriculum, css, javascript, html">
+    
+    <link rel="stylesheet" href="estilos.css">
+    <title>Curriculum Vitae Pablo Mondino De La Rossa</title>
+   
+    <!--Agrego Bootstrap en el proyecto-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    
+    <!-- favicon-->
+    <link rel="icon" type=image/x-icon" href="imagenes/icono.png">
+
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@600&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap" rel="stylesheet">
+
+    <!--iconos bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+   
+</head>
+<body>
+
+    <!--
+        ///////////////////////////////
+        Barra navegacion
+        trabaje con bootstrap
+    ///////////////////////////////////
+--> 
+
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-Toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-Toggler">
+            <a class="navbar-brand" href="#">
+                <img src="imagenes/icono.png" width="50px"  alt="foto del logo de la pagina">
+            </a>
+            <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#principal">Acerca de mí</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#sobre-mi">Información personal</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#experiencia">Experiencia</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#habilidades">Habilidades</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+            </ul>
+             <!-- saque era el boton de busqueda
+            <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button> 
+            -->
+            </form>
+        </div>
+        </div>
+    </nav>    
+
+    <!--
+    ////////////////////////////////
+        Seccion principal 
+    ////////////////////////////////
+    -->
+
+    <section id="principal" class="principal align-items-strech">
+        <div class="principal-principal d-flex flex-column justify-content-center align-items-center"  >
+           
+           
+            <img class="principal-imagen"  src="imagenes/fotoPerfilPabloMondino.svg"  alt="foto de pablo mondino">
+            <h1>Pablo Mondino De La Rossa</h1>
+            <h2>Lic. en Administración</h2>
+            <h2>Desarrollador Web</h2>
+            
+        </div>
+        <div >
+
+            <img class="principal-inferior-imagen img-fluid "src="imagenes/dise195177ador-1.jpg" alt="imaden de compu y ctebook y celu" >
+        
+        </div>
+    
+    
+    </section>
+
+
+    <!--////////////////
+        seccion sobre mí
+        ////////////////  
+    -->
+
+    <section id="sobre-mi" class="sobre-mi section-oscura">
+        <div class="contenedor">
+            <h3 class="section-titulo">Pablo Mondino De La Rossa</h3>
+            <p class="section-texto">Lic. en Administración de profesión, me vuelco a la programación buscando crear soluciones aportando mi experiencia y colaborando con otra mirada a las empresas tecnológicas.
+                La pandemia creó en mí la necesidad de lograr resultados en un mundo atravesado por la tecnología. Me interesa trabajar proactivamente en equipos para buscar soluciones innovadoras a los desafíos que se presentan día a día. Estoy deseoso de utilizar mis habilidades y crecer como programador. 
+                Soy responsable, creativo y autodidacta.
+                
+            </p>
+
+            <p id="demo">                                      </p>
+            
+            <button class="boton_reset" type="button" id="boton-reset">Reset</button>
+
+
+            <button class="boton_cambiar_estilo" id="boton">Cambiar Estilo</button>
+
+
+        </div>
+    </section>
+
+
+
+    
+    <!--
+        ////////////////
+        Experiencia
+        ////////////////  
+    -->
+
+    <section id="experiencia" class="experiencia section-clara">
+            <div class="container section-titulo">
+                Experiencia
+            </div>
+
+            <div class="container text-center">
+                <div class="row">
+                    <!--columna numero 1-->
+                    <div class="col-12 col-md-4">
+                        <h3 class="experiencia-titulo">  Desarrollador Web </h3>
+                        <h4> Diciembre 2022 - actualidad</h4>   
+                        <p>- Creacion y diseño de Sitios Web <br>
+                           - Mantenimiento Sitios Web <br>
+                           - Creacion de contenido  <br>
+                        </p> 
+                    </div>
+                    <!--columna numero 2-->
+                    <div class="col-12 col-md-4">
+                        <h3 class="experiencia-titulo">  AirBnb, Cordoba: Super Anfitrión</h3>
+                        <h4> Marzo 2016 - actualidad</h4>   
+                        <p>- Administración online de Departamentos <br>
+                            en Córdoba. <br>
+                            - Recepción de personas extranjera <br>
+                        </p>    
+
+                    </div>
+
+                    <!--columna numero 3-->
+                    <div class="col-12 col-md-4">
+                        <h3 class="experiencia-titulo">  Muebles La Pietá, Córdoba: Gerente Comercial</h3>
+                        <h4> Septiembre 2012 - actualidad</h4>   
+                        <p>
+                               - Desarollo integral de actividades comerciales <br>
+                              - Capacitación del personal en actividades <br>
+                                 productivas y comerciales <br>
+                               -Desarrollo de canales y comunicación digital <br>
+                            </p>
+                    </div>
+
+                    
+
+                </div>
+
+            </div>
+
+    </section>
+
+
+
+
+
+ <!--////////////////
+        Habilidades
+     //////////////////  
+    -->
+    <section id="habilidades" class="section section-oscura">
+        <div>
+            <h2 class="section-titulo tilulo-blanco">
+                Habilidades
+            </h2>
+        </div>
+
+        <div class="container  text-center" >
+
+            <!--fila uno-->
+
+            <div class="row ">
+               
+                <div class=" cuadrado col-12 col-md-4">
+                    <span class="badge text-bg-primary" style="font-size:2rem;">Html</span>
+                </div>
+              
+                
+                <div class="cuadrado col-12 col-md-4">
+                    <span class="badge text-bg-primary" style="font-size:2rem;">Css</span>
+                </div>
+                
+
+                <div class="cuadrado col-12 col-md-4">
+                    <span class="badge text-bg-primary" style="font-size:2rem;">Javascript</span>
+                </div>
+               
+               
+                
+            </div>
+
+            <!--fila dos-->
+            
+            <div class="row">
+               
+                <div class="cuadrado col-12 col-md-4">
+                    <span class="badge text-bg-primary" style="font-size:2rem;">Bootstrap</span>
+                </div>
+              
+                
+                <div class="cuadrado col-12 col-md-4">
+                    <span class="badge text-bg-primary" style="font-size:2rem;">Java</span>
+                </div>
+                
+                
+                <div class="cuadrado col-12 col-md-4">
+                    <span class="badge text-bg-primary" style="font-size:1.75rem;">Edicion Imágenes</span>
+                </div>
+               
+               
+                
+            </div>
+
+
+            <!--fila tres-->
+            
+            <div class="row">
+               
+                <div class="cuadrado col-12 col-md-4">
+                    <span class="badge text-bg-primary" style="font-size:2rem;">Msql</span>
+                </div>
+              
+                
+                <div class="cuadrado col-12 col-md-4">
+                    <span class="badge text-bg-primary" style="font-size:1.75rem;">Redes Sociales</span>
+                </div>
+                
+                
+                <div class="cuadrado col-12 col-md-4">
+                    <span class="badge text-bg-primary" style="font-size:2rem;">Scrum</span>
+                </div>
+               
+               
+                
+            </div>
+
+        </div>
+    </section>
+
+<!--////////////////
+    franja-blanca
+    ////////////////  
+    -->
+    <div class="franja-blanca">
+
+    </div>
+
+
+     
+
+
+
+
+ <!--
+////////////////////////
+    descargar curriculum
+////////////////////////  
+ -->
+
+    <section class="container text-center section-curriculum section-oscura">
+        <div>
+           <!-- <a href="imagenes/Curriculum_vitae_Pablo_Mondino_De_La_Rossa-enero2023.pdf" target="_blank" rel="noopener noreferrer" download>Descargar Curriculum</a>  --> 
+        
+            <button class="boton_ver" id="boton_ver">Ver Curriculum Vitae</button> 
+
+            <button class="boton_descarga"id="boton_descarga">Descargar Curriculum Vitae</button> 
+           <div id="agregar"> 
+            
+           </div>
+
+            
+        </div>
+    </section>
+
+    
+    
+
+
+
+
+
+
+ <!--////////////////
+     Formulario de Contacto
+    //////////////// 
+    -->
+
+    <section class="container formulario">
+
+        <div class="" id="contacto">
+            <div class="section-titulo tilulo-blanco text-center titulo-formulario">
+                
+                   Contáctame!!! 
+                   
+            </div>
+
+            <div class="">
+                <form  class="" action=""  method="">
+                    <div class="container text-center">    
+                        <div class=" row">
+                            <div class="" >
+                                <!-- <label>Nombre: </label> -->  
+                                <input placeholder="Nombre" type="text" name="nombre" required>
+                            </div>
+
+                            <div class="">
+                                <!-- <label>Nombre: </label> -->  
+                                <input placeholder="Apellido" type="text" name="Apellido"nombre" required>
+                            </div>
+
+                            
+
+                            <div class="">
+                                   <!--<label>Email: </label>   -->  
+                                <input placeholder="Email" type="email" name="email" required>
+                            </div>
+
+                            <div class="">
+                                <!--<label>Asunto: </label>   -->  
+                             
+                             <textarea placeholder="Asunto" name="asunto"  cols="23" rows="5" required></textarea>
+                                <!--<input placeholder="Asunto" type="field" name="asunto" required> -->
+                         </div>
+
+
+                            <div class="boton">
+                                <input  class="boton_formulario" type="submit" value="Enviar">
+
+                                
+                            </div>
+                        </div>
+                    </div>
+                </form>  
+            </div>     
+           
+
+        </div>    
+
+
+    </section>
+
+
+
+
+
+
+    <!--////////////////////////
+        footer - redes sociales
+        ////////////////////////  
+    -->
+
+    <footer  class="section-oscura  d-flex  flex-column align-items-center">
+        
+        <div class="iconos-redes-sociales d-flex  flex-wrap align-items-center justify-content-center">
+
+            <a href="https://www.linkedin.com/in/pablo-mondino-de-la-rossa/"  target="_blank"  >
+            
+                <i class="bi bi-linkedin"></i>
+            </a>
+
+            
+            <a href="https://github.com/pablomondino"  target="_blank"  rel="noopener noreferrer"       >
+                <i class="bi bi-github"></i>
+            </a>
+
+           
+            <a href="mailto:pablogmondino@gmail.com"  target="_blank"  rel="noopener noreferrer"  >
+                <i class="bi bi-envelope"></i>
+            </a>
+
+        </div>
+
+       
+
+
+
+        <div class="contenedor">
+            <p class="copy">
+              
+                Pablo Mondino De La Rossa / Copyright © 2023 
+                
+            </p>
+        </div>
+    </footer>
+
+
+
+
+    
+
+    <script src="curricullum.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
