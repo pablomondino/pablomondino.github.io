@@ -31,7 +31,7 @@ document.getElementById("boton_ver").addEventListener("click", function () {
    
     document.getElementById("agregar").appendChild(elemento1);
 
-    elemento1.href="imagenes/Curriculum_vitae_Pablo_Mondino_De_La_Rossa_enero2023.pdf";
+    elemento1.href="imagenes/Curriculum_vitae_Pablo_Mondino_De_La_Rossa_febrero23.pdf";
     elemento1.target="_blank";
     elemento1.click();
  
@@ -50,9 +50,9 @@ document.getElementById("boton_descarga").addEventListener("click", function () 
     
     document.getElementById("agregar").appendChild(elemento1);
 
-    elemento1.href="imagenes/Curriculum_vitae_Pablo_Mondino_De_La_Rossa_enero2023.pdf";
+    elemento1.href="imagenes/Curriculum_vitae_Pablo_Mondino_De_La_Rossa_febrero23.pdf";
     elemento1.target="_blank";
-    elemento1.download= "Curriculum_vitae_Pablo_Mondino_De_La_Rossa_enero2023.pdf";
+    elemento1.download= "Curriculum_vitae_Pablo_Mondino_De_La_Rossa_febrero23.pdf";
     elemento1.click();
   
 })
