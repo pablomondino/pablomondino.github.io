@@ -52,7 +52,7 @@ document.getElementById("boton_descarga").addEventListener("click", function () 
 
     elemento1.href="imagenes/Curriculum_vitae_Pablo_Mondino_De_La_Rossa_febrero23.pdf";
     elemento1.target="_blank";
-    elemento1.download= "imagenes/Curriculum_vitae_Pablo_Mondino_De_La_Rossa_febrero23.pdf";
+    elemento1.download= "Curriculum_vitae_Pablo_Mondino_De_La_Rossa_febrero23.pdf";
     elemento1.click();
   
 })
